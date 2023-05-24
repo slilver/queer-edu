@@ -1,3 +1,1 @@
-- Uniformise our folder structures to make code work for both of us?
-- We need to check: are there actually responses for all of the columns of interest for all respondents.
 - Name variations in code/lines.
