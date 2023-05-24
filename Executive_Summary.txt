@@ -1,0 +1,14 @@
+Overview:
+
+The aim of this project is to demonstrate differences between LGBTQ+ respondents and non-LGBTQ+ respondents in their feelings of academic success, mental health, and sense of belonging within the campus environment. We primarily grouped respondents by self-identification of their sex, gender, and sexual orientation. We also incorporate information on race and age to examine the intersectionality of different demographic factors.
+
+Results
+We found that...
+
+Results are visualized in a Tableau Dashboard with different filters and parameters incorporated.
+
+
+Impacts
+This analysis sought to quantify shared experiences between individuals who identify as members of the LGBTQ+ community in order to quantify the needs of students. Identifying the needs of underrepresented groups is a critical step to help institutions identify resources and intiatives to help improve their academic performance and mental health. Increasing availability and access to resources of underrepresented groups also benefits institutions by reducing student risk on campus, improving academic performance, and increasing student retention rates. 
+
+Future work/models?
