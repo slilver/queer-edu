@@ -12,9 +12,9 @@ Additional information and Codebook are available here: https://healthymindsnetw
 
 ***Data Analysis***
 
-LGBTQ+: Anyone whose self-identified sexual orientation is lesbian, gay, bisesxual, queer, questioning, asexual, or pansexual or whose self-identified gender identity is transgender, genderqueer, or non-binary
+LGBTQ+: Anyone whose self-identified sexual orientation is lesbian, gay, bisesxual, queer, questioning, asexual, or pansexual, or whose self-identified gender identity is transgender, genderqueer, non-binary, or two-spirit.
 
-Non-LGBTQ+: Anyone whose self-identified sexual orientation is heterosexual or whose self-identified gender identity is male or female
+Non-LGBTQ+: Anyone who does not fall under the preceding definition of LGBTQ+. 
 
 Metrics include comparison of response distributions between demographic groups of interest for different survey questions. 
 
