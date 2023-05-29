@@ -19,14 +19,17 @@ import matplotlib.pyplot as plt
 def codes_of_interest():
     """Extract codes of interest from the data of interest spreadsheet.
     Return the codes in an array of strings."""
-    with open('..\\Data_of_interest_csv.csv') as file:
+    with open('..\\Data_of_interest2.csv') as file:
         reader = csv.reader(file)
         columns = list(zip(*reader)) # zip makes iterable version of *reader, where * transposes
         codes = list(columns[2])
+
         del codes[0] # remove header from codes
         # remove trailing underscores from codes
         for index, code in enumerate(codes):
            codes[index] = code.strip('_')
+
+        codes = [code for code in codes if code]  # remove empty strings
         print(codes)
         return codes
 
@@ -49,7 +52,7 @@ def check_codes(codes, print_modules=False):
             if not filename.endswith('.pdf'):
                 continue
 
-            if print_modules and filename.endswith('2021.pdf'): # only do modules for 2020-2021 data
+            if print_modules and filename.endswith('2021.pdf'):  # only do modules for 2020-2021 data
                 continue
             reader = PyPDF2.PdfReader(directory + filename)
 
@@ -110,12 +113,12 @@ def data_extraction(filepath, column_titles):
     print('Wrote reduced csv file to', filepath)
 
 
-def check_column_title(column, column_titles):
+def check_column_title(column, good_titles):
     """Return true if the title of column is indicated in column_titles."""
     column_title = column[0]
     good_column = False
-    for title in column_titles:
-        if title in column_title:
+    for good_title in good_titles:
+        if good_title in column_title:
             good_column = True
             break
     return good_column
@@ -129,13 +132,16 @@ if __name__ == '__main__':
     # check_codes(codes, False)
 
     # perform data extraction on all csv files in directory
-    csv_files = []
-    for filename in os.listdir(directory):
-        if not filename.endswith('.csv'):
-            continue
-        csv_files.append(filename)
-    for filename in csv_files:
-        data_extraction(directory + filename, codes)
+    # csv_files = []
+    # for filename in os.listdir(directory):
+    #     if not filename.endswith('.csv'):
+    #         continue
+    #     csv_files.append(filename)
+    # for filename in csv_files:
+    #     data_extraction(directory + filename, codes)
+
+    data_extraction(directory + "2019_2020_HMS_reduced.csv",
+                    codes)
 
     # csv_files = []
     # for filename in os.listdir(directory):
