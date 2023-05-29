@@ -11,10 +11,9 @@ import os # for opening directories
 import csv
 import string
 
-
-def print_hi(name):
-    """Function that prints simple friendly text."""
-    print('Hi', name, '!')
+import pandas as pd
+from ydata_profiling import ProfileReport
+import matplotlib.pyplot as plt
 
 
 def codes_of_interest():
@@ -101,13 +100,13 @@ def data_extraction(filepath, column_titles):
         columns = list(zip(*reader))  # zip makes iterable version of *reader, where * transposes
 
         columns = [col for col in columns if check_column_title(col, column_titles)]
-    columns = zip(*columns)
+    rows = zip(*columns)  # write column data to zip file for parsing, where * transposes
     write_filepath = filepath.removesuffix('.csv') + '_reduced.csv'
-    new_file = open(write_filepath, 'w+', encoding='utf-8', errors='ignore')
+    new_file = open(write_filepath, 'w+', newline='', encoding='utf-8', errors='ignore')
         # utf-8 is most common encoding, but some files still have special chars so 'ignore' errors
     with new_file:
         writer = csv.writer(new_file)
-        writer.writerows(columns)
+        writer.writerows(rows)
     print('Wrote reduced csv file to', filepath)
 
 
@@ -125,11 +124,11 @@ def check_column_title(column, column_titles):
 # Run script.
 if __name__ == '__main__':
 
+    directory = '..\\..\\HMS Data\\Datasets\\'
     codes = codes_of_interest()
     # check_codes(codes, False)
 
     # perform data extraction on all csv files in directory
-    directory = '..\\..\\HMS Data\\Datasets\\'
     csv_files = []
     for filename in os.listdir(directory):
         if not filename.endswith('.csv'):
@@ -137,3 +136,19 @@ if __name__ == '__main__':
         csv_files.append(filename)
     for filename in csv_files:
         data_extraction(directory + filename, codes)
+
+    # csv_files = []
+    # for filename in os.listdir(directory):
+    #     if not filename.endswith('reduced.csv'):
+    #         continue
+    #     csv_files.append(filename)
+    # for filename in csv_files:
+    #     dataframe = pd.read_csv(directory + filename, low_memory=False)
+    #     # print(dataframe)
+    #     # print(dataframe.dtypes)
+    #     # print(dataframe.info())
+    #     profile = ProfileReport(dataframe,
+    #                             title="Pandas Profiling Report for " + filename.removesuffix('_HMS_reduced.csv'))
+    #     profile.to_file(directory + filename.removesuffix('_HMS_reduced.csv'))
+
+

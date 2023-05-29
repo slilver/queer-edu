@@ -72,6 +72,8 @@
       <workItem from="1684945538730" duration="7732000" />
       <workItem from="1684976339339" duration="4632000" />
       <workItem from="1684982055100" duration="1119000" />
+      <workItem from="1685226010259" duration="4331000" />
+      <workItem from="1685374509751" duration="1557000" />
     </task>
     <servers />
   </component>
@@ -90,6 +92,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/queer_edu_python$main.coverage" NAME="main Coverage Results" MODIFIED="1684983504044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/queer_edu_python$main.coverage" NAME="main Coverage Results" MODIFIED="1685375017677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
