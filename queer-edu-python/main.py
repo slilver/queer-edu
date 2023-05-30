@@ -43,7 +43,7 @@ def check_codes(codes, print_modules=False):
     for filename in os.listdir(directory):  # print order of files for which reporting will occur
         if not filename.endswith('.pdf'):
             continue
-        report_order.append(filename[-13:-4])
+        report_order.append(filename[-13:-4])  # collect year of file
     print(report_order)
 
     for code in codes:
