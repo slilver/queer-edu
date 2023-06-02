@@ -128,10 +128,10 @@ def check_column_title(column, good_titles):
 
 
 def chi_square(filepath):
-    """Perform a chi square test on category 1 vs category 2 from the crosstable at filepath.
-    Return the p-value of the test."""
+    """Perform a chi square test on the csv crosstable at filepath.
+    Print the results of the test."""
     crosstab = pandas.read_csv(filepath)
-    print(crosstab)
+    # print(crosstab)
     print(chi2_contingency(crosstab))
 
 
