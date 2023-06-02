@@ -7,7 +7,6 @@
     <list default="true" id="9090933b-6177-4bb8-b250-20e5d2add5ec" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tableau-workbooks/Final Tableau Workbook_SM.twb" beforeDir="false" afterPath="$PROJECT_DIR$/../tableau-workbooks/Final Tableau Workbook_SM.twb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +77,7 @@
       <workItem from="1685447875612" duration="59000" />
       <workItem from="1685451856634" duration="5000" />
       <workItem from="1685570006073" duration="16000" />
-      <workItem from="1685716548434" duration="192000" />
+      <workItem from="1685716548434" duration="903000" />
     </task>
     <servers />
   </component>

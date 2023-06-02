@@ -11,9 +11,12 @@ import os # for opening directories
 import csv
 import string
 
-import pandas as pd
+import pandas
 from ydata_profiling import ProfileReport
 import matplotlib.pyplot as plt
+
+from scipy.stats import chi2_contingency
+import numpy as np
 
 
 def codes_of_interest():
@@ -124,18 +127,22 @@ def check_column_title(column, good_titles):
     return good_column
 
 
-def chi_square(category1, category2):
-    """Perform a chi square test on category 1 vs category 2.
+def chi_square(filepath, category1, category2):
+    """Perform a chi square test on category 1 vs category 2 from the csv file at filepath.
     Return the p-value of the test."""
+    BIKE = pandas.read_csv(filepath)
+    categorical_col = ['season', 'yr', 'mnth', 'holiday', 'weekday', 'workingday',
+                       'weathersit']
+    print(categorical_col)
+
 
 # Run script.
 if __name__ == '__main__':
 
     directory = '..\\..\\HMS Data\\Datasets\\'
     codes = codes_of_interest()
-    # check_codes(codes, False)
 
-    # perform data extraction on all csv files in directory
+    # # perform data extraction on all csv files in directory
     # csv_files = []
     # for filename in os.listdir(directory):
     #     if not filename.endswith('.csv'):
@@ -144,9 +151,7 @@ if __name__ == '__main__':
     # for filename in csv_files:
     #     data_extraction(directory + filename, codes)
 
-    data_extraction(directory + "2019_2020_HMS_reduced.csv",
-                    codes)
-
+    # # Loop through csv files in directory and do a task
     # csv_files = []
     # for filename in os.listdir(directory):
     #     if not filename.endswith('reduced.csv'):
@@ -161,4 +166,6 @@ if __name__ == '__main__':
     #                             title="Pandas Profiling Report for " + filename.removesuffix('_HMS_reduced.csv'))
     #     profile.to_file(directory + filename.removesuffix('_HMS_reduced.csv'))
 
+    # Chi-square tests
+    chi_square(directory + "2019_2020_HMS_reduced.csv")
 
