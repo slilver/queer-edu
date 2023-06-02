@@ -124,6 +124,10 @@ def check_column_title(column, good_titles):
     return good_column
 
 
+def chi_square(category1, category2):
+    """Perform a chi square test on category 1 vs category 2.
+    Return the p-value of the test."""
+
 # Run script.
 if __name__ == '__main__':
 
