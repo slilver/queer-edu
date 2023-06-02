@@ -127,20 +127,21 @@ def check_column_title(column, good_titles):
     return good_column
 
 
-def chi_square(filepath, category1, category2):
-    """Perform a chi square test on category 1 vs category 2 from the csv file at filepath.
+def chi_square(filepath):
+    """Perform a chi square test on category 1 vs category 2 from the crosstable at filepath.
     Return the p-value of the test."""
-    BIKE = pandas.read_csv(filepath)
-    categorical_col = ['season', 'yr', 'mnth', 'holiday', 'weekday', 'workingday',
-                       'weathersit']
-    print(categorical_col)
+    crosstab = pandas.read_csv(filepath)
+    print(crosstab)
+    print(chi2_contingency(crosstab))
 
 
 # Run script.
 if __name__ == '__main__':
 
     directory = '..\\..\\HMS Data\\Datasets\\'
-    codes = codes_of_interest()
+
+    # # get codes of interest
+    # codes = codes_of_interest()
 
     # # perform data extraction on all csv files in directory
     # csv_files = []
@@ -167,5 +168,6 @@ if __name__ == '__main__':
     #     profile.to_file(directory + filename.removesuffix('_HMS_reduced.csv'))
 
     # Chi-square tests
-    chi_square(directory + "2019_2020_HMS_reduced.csv")
+    directory = "C:\\Users\\kyrie\\github\\queer-edu\\crosstables\\"
+    chi_square(directory + "group_belong_vs_choose_again.csv")
 
