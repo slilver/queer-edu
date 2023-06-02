@@ -11696,8 +11696,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1700' minheight='1700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='176' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98118' id='175' param='vert' type-v2='layout-flow' w='98400' x='800' y='941'>
+            <zone h='100000' id='178' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98118' id='177' param='vert' type-v2='layout-flow' w='98400' x='800' y='941'>
                 <zone forceUpdate='true' h='8118' id='31' type-v2='text' w='83500' x='800' y='941'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='18'><![CDATA[Does student academic performence differ by <]]></run>
@@ -12040,8 +12040,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1450' minheight='1450' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='179' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98118' id='178' param='vert' type-v2='layout-flow' w='98400' x='800' y='941'>
+            <zone h='100000' id='181' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98118' id='180' param='vert' type-v2='layout-flow' w='98400' x='800' y='941'>
                 <zone forceUpdate='true' h='8588' id='71' type-v2='text' w='82800' x='800' y='941'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='18'><![CDATA[Does student experience on campus differ by <]]></run>
@@ -12096,7 +12096,7 @@
                   </zone-style>
                 </zone>
                 <zone fixed-size='202' h='24706' id='20' is-fixed='true' name='Witness' w='69200' x='30000' y='38353'>
-                  <layout-cache cell-count-w='6' minheight='180' non-cell-size-w='72' type-h='scalable' type-w='cell' />
+                  <layout-cache cell-count-w='6' minheight='177' non-cell-size-w='72' type-h='scalable' type-w='cell' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -12127,7 +12127,7 @@
                   </zone-style>
                 </zone>
                 <zone fixed-size='231' h='28117' id='93' is-fixed='true' name='Gp Belong' w='49200' x='800' y='63059'>
-                  <layout-cache minheight='231' minwidth='200' type-h='scalable' type-w='scalable' />
+                  <layout-cache minheight='231' minwidth='260' type-h='scalable' type-w='scalable' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -12146,7 +12146,7 @@
                   </zone-style>
                 </zone>
                 <zone fixed-size='231' h='28117' id='95' is-fixed='true' name='School Belong' w='49200' x='50000' y='63059'>
-                  <layout-cache minwidth='200' type-h='fixed' type-w='scalable' />
+                  <layout-cache minwidth='260' type-h='fixed' type-w='scalable' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -12379,8 +12379,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1600' minheight='1600' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='129' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98118' id='128' param='vert' type-v2='layout-flow' w='98400' x='800' y='941'>
+            <zone h='100000' id='131' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98118' id='130' param='vert' type-v2='layout-flow' w='98400' x='800' y='941'>
                 <zone forceUpdate='true' h='5999' id='17' type-v2='text' w='98400' x='800' y='941'>
                   <formatted-text>
                     <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='22'>Why does campus climate and belonging matter?</run>
@@ -12700,8 +12700,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='133' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='132' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='135' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='134' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone forceUpdate='true' h='51000' id='3' type-v2='text' w='98400' x='800' y='19625'>
                   <formatted-text>
                     <run bold='true' fontcolor='#000000' fontsize='11'>ReadMe</run>
@@ -12920,8 +12920,8 @@
           <zone h='31057' id='41' is-fixed='true' type-v2='layout-basic' w='98400' x='800' y='40941'>
             <zone h='31057' id='43' is-fixed='true' type-v2='layout-basic' w='98400' x='800' y='40941'>
               <zone h='31057' id='38' param='vert' type-v2='layout-flow' w='42800' x='800' y='40941'>
-                <zone h='25882' id='42' name='Age Table' w='42800' x='800' y='40941'>
-                  <layout-cache cell-count-w='2' fixed-size-h='212' non-cell-size-w='101' type-h='fixed' type-w='cell' />
+                <zone h='24941' id='42' name='Age Table' w='42800' x='800' y='40941'>
+                  <layout-cache cell-count-w='2' fixed-size-h='204' non-cell-size-w='101' type-h='fixed' type-w='cell' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -12970,10 +12970,10 @@
       </zones>
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
-          <size maxheight='1450' minheight='1450' sizing-mode='vscroll' />
+          <size maxheight='1500' minheight='1500' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='155' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98118' id='154' param='vert' type-v2='layout-flow' w='98400' x='800' y='941'>
+            <zone h='100000' id='157' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98118' id='156' param='vert' type-v2='layout-flow' w='98400' x='800' y='941'>
                 <zone fixed-size='68' h='8939' id='46' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/sarah/OneDrive/Documents/GitHub/Project/HMN-logo-300x300.png' type-v2='bitmap' url='https://healthymindsnetwork.org/' w='7600' x='800' y='941'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -13031,8 +13031,8 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='204' h='24941' id='42' is-fixed='true' name='Age Table' w='42800' x='800' y='40941'>
-                  <layout-cache cell-count-w='2' fixed-size-h='204' non-cell-size-w='101' type-h='fixed' type-w='cell' />
+                <zone fixed-size='212' h='25882' id='42' is-fixed='true' name='Age Table' w='42800' x='800' y='40941'>
+                  <layout-cache cell-count-w='2' fixed-size-h='212' non-cell-size-w='101' type-h='fixed' type-w='cell' />
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -13986,7 +13986,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='116' />
+      <active id='12' />
       <simple-id uuid='{CE04B3FA-882F-4CE0-B80A-5CAEA4964D0B}' />
     </window>
     <window class='dashboard' maximized='true' name='Climate'>
@@ -14004,7 +14004,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='-1' />
+      <active id='24' />
       <simple-id uuid='{7A56F48A-F78E-4DC3-8365-1851C37C05C5}' />
     </window>
   </windows>
