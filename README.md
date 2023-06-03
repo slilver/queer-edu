@@ -10,11 +10,13 @@ Additional information and Codebook are available here: https://healthymindsnetw
 
 ***Data Cleaning and Processing***
 
-Data was cleaned and transformed in python and excel. The data file was first reduced to include specific survey questions chosen by group members. Select columns were then transformed for easier use and interpretation in Tableau.
+Data was cleaned and transformed in python and excel. Python files used for cleaning are located in the folder "queer-edu-python" and utilizes the columsn of interest written in "Data_of_interest_csv". Each data file was first reduced to include specific survey questions chosen by group members. These are located in the folder "reduced-csv-files". Select columns were then transformed for easier use and interpretation in Tableau. These are located in the folder "reduced-merged-files". 
 
 ***Data Visualization***
 
-We created a set of dynamic dashboards in Tableau to visualize differences in survey responses. The demographic groups to compare include seuality and gender. 
+We created a set of dynamic dashboards in Tableau to visualize differences in survey responses. The dashboards are located within the folder "tableau-workbooks", but require Tableau Desktop Edition. They are also available to view on Tableau Public with a free account: https://public.tableau.com/views/DataScienceforJusticeTableauWorkbook/ReadMe?:language=en-US&:display_count=n&:origin=viz_share_link
+
+The demographic groups to compare include seuality and gender. 
 
 LGBTQ+: Anyone whose self-identified sexual orientation is lesbian, gay, bisesxual, queer, questioning, asexual, or pansexual, or whose self-identified gender identity is transgender, genderqueer, non-binary, or two-spirit.
 
