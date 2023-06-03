@@ -1,7 +1,5 @@
 # queer-edu
-Data Science for Justice project as part of Erdos Institute May-June 2023 data science bootcamp.
-
-Queer in Academia: How does identity impact student performance and experience?
+Data Science for Justice project as part of Erdös Institute May-June 2023 data science bootcamp.
 
 ***Data Gathering***
 
@@ -36,3 +34,5 @@ Survey questions fall within 3 broad categories:
 1) Academic performance
 2) Mental health
 3) Sense of belonging within the campus environment
+
+The Executive Summary document includes conclusions and recommendations from this work. 
