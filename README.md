@@ -12,7 +12,7 @@ Additional information and Codebook are available here: https://healthymindsnetw
 Data was cleaned and transformed in python and excel. The data file was first reduced to include specific survey questions chosen by group members. Select columns were then transformed for easier use and interpretation in Tableau.
 
 ***Data Visualization***
-The demographic groups to compare include seuality and gender. 
+We created a set of dynamic dashboards in Tableau to visualize differences in survey responses. The demographic groups to compare include seuality and gender. 
 
 LGBTQ+: Anyone whose self-identified sexual orientation is lesbian, gay, bisesxual, queer, questioning, asexual, or pansexual, or whose self-identified gender identity is transgender, genderqueer, non-binary, or two-spirit.
 
