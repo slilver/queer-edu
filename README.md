@@ -34,3 +34,5 @@ Survey questions fall within 3 broad categories:
 1) Academic performance
 2) Mental health
 3) Sense of belonging within the campus environment
+
+The Executive Summary document includes conclusions and recommendations from this work. 
