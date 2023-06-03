@@ -4,18 +4,18 @@
 
 # import packages here.
 import PyPDF2 # for reading pdfs
-import re # regex
+import re  # regex
 
-import os # for opening directories
+import os  # for opening directories
 
 import csv
-import string
+import string  # for operations with strings
 
 import pandas
-from ydata_profiling import ProfileReport
-import matplotlib.pyplot as plt
+from ydata_profiling import ProfileReport  # for data exploration and cleaning with ydata
+import matplotlib.pyplot
 
-from scipy.stats import chi2_contingency
+from scipy.stats import chi2_contingency  # for chi square tests
 import numpy as np
 
 
@@ -138,12 +138,11 @@ def chi_square(filepath):
 # Run script.
 if __name__ == '__main__':
 
-    directory = '..\\..\\HMS Data\\Datasets\\'
-
     # # get codes of interest
     # codes = codes_of_interest()
 
     # # perform data extraction on all csv files in directory
+    # directory = '..\\..\\HMS Data\\Datasets\\'
     # csv_files = []
     # for filename in os.listdir(directory):
     #     if not filename.endswith('.csv'):
@@ -152,7 +151,8 @@ if __name__ == '__main__':
     # for filename in csv_files:
     #     data_extraction(directory + filename, codes)
 
-    # # Loop through csv files in directory and do a task
+    # # loop through reduced csv files in directory and write ydata profile
+    # directory = '..\\..\\HMS Data\\Datasets\\'
     # csv_files = []
     # for filename in os.listdir(directory):
     #     if not filename.endswith('reduced.csv'):
@@ -167,7 +167,7 @@ if __name__ == '__main__':
     #                             title="Pandas Profiling Report for " + filename.removesuffix('_HMS_reduced.csv'))
     #     profile.to_file(directory + filename.removesuffix('_HMS_reduced.csv'))
 
-    # Chi-square tests
+    # chi-square tests
     directory = "C:\\Users\\kyrie\\github\\queer-edu\\crosstables\\"
     chi_square(directory + "group_belong_vs_choose_again.csv")
 

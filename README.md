@@ -6,7 +6,7 @@ Queer in Academia: How does identity impact student performance and experience?
 ***Data Gathering***
 
 We utilized survey data from the Healthy Minds Student Survey provided by the Healthy Minds Network upon request. Data were shared as csv files. We focused on the year 2019-2020.
-Additional information and Codebook are available here: https://healthymindsnetwork.org/hms/
+Additional information and codebooks are available here: https://healthymindsnetwork.org/hms/
 
 ***Data Cleaning and Processing***
 
@@ -16,15 +16,15 @@ Data was cleaned and transformed in python and excel. Python files used for clea
 
 We created a set of dynamic dashboards in Tableau to visualize differences in survey responses. The dashboards are located within the folder "tableau-workbooks", but require Tableau Desktop Edition. They are also available to view on Tableau Public with a free account: https://public.tableau.com/views/DataScienceforJusticeTableauWorkbook/ReadMe?:language=en-US&:display_count=n&:origin=viz_share_link
 
-The demographic groups to compare include seuality and gender. 
+The demographic groups to compare include sexuality and gender. 
 
-LGBTQ+: Anyone whose self-identified sexual orientation is lesbian, gay, bisesxual, queer, questioning, asexual, or pansexual, or whose self-identified gender identity is transgender, genderqueer, non-binary, or two-spirit.
+LGBTQ+: Anyone whose self-identified sexual orientation is lesbian, gay, bisesxual, queer, questioning, asexual, and/or pansexual, or whose self-identified gender identity is transgender, genderqueer, non-binary, and/or two-spirit.
 
 Non-LGBTQ+: Anyone who does not fall under the preceding definition of LGBTQ+. 
 
 Metrics include comparison of response distributions between demographic groups of interest for different survey questions. 
 
-Questions included in the dashboard include:
+Questions studied in the dashboard include:
 
 
 Demographic groups to compare:
