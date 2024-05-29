@@ -141,6 +141,9 @@ if __name__ == '__main__':
     # # get codes of interest
     # codes = codes_of_interest()
 
+    # check codes
+    check_codes(['test'])
+
     # # perform data extraction on all csv files in directory
     # directory = '..\\..\\HMS Data\\Datasets\\'
     # csv_files = []
@@ -168,6 +171,8 @@ if __name__ == '__main__':
     #     profile.to_file(directory + filename.removesuffix('_HMS_reduced.csv'))
 
     # chi-square tests
-    directory = "C:\\Users\\kyrie\\github\\queer-edu\\crosstables\\"
-    chi_square(directory + "group_belong_vs_choose_again.csv")
+    # directory = "C:\\Users\\kyrie\\github\\queer-edu\\crosstables\\"
+    # chi_square(directory + "group_belong_vs_choose_again.csv")
+
+    print('HMS script')
 
