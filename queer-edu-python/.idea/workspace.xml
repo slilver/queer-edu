@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9090933b-6177-4bb8-b250-20e5d2add5ec" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/queer-edu-python.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/111_script.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Stark-python/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +94,9 @@
       <workItem from="1688332497564" duration="596000" />
       <workItem from="1698279070539" duration="8000" />
       <workItem from="1707061024058" duration="3901000" />
+      <workItem from="1717933282761" duration="414000" />
+      <workItem from="1717934287823" duration="40000" />
+      <workItem from="1717934333365" duration="5000" />
     </task>
     <servers />
   </component>
